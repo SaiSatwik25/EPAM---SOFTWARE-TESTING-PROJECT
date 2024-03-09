@@ -10,7 +10,7 @@ public class SigninAutomation{
       //it is a new file to compare witrh older version
         driver.get("https://www.hackerrank.com/auth/login");
         driver.findElement(By.id("username")).sendKeys("2100031619@kluniversity.in");
-        driver.findElement(By.id("password")).sendKeys("kavya8834");
+        driver.findElement(By.id("password")).sendKeys("*********");
         driver.findElement(By.id("loginbtn")).submit();
         driver.quit();
     }
